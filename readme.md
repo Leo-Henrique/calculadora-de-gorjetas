@@ -20,8 +20,7 @@ Este desafio pelo Frontend Mentor com ênfase em JavaScript consistia em desenvo
 
 ### ✅ Status
 
-Projeto: Finalizado.
-Readme ainda em desenvolvimento.
+Finalizado.
 
 ### 🏁 O desafio
 
