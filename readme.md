@@ -57,7 +57,7 @@ Comecei listando as funcionalidades do projeto por ondem de prioridade e iniciei
 
 #### Cálculo
 
-O cálculo é bem simples: o valor da conta somado com a porcentagem da gorjeta dividido pelo número de pessoas.
+O cálculo é bem simples: o valor da conta somado com a porcentagem da gorjeta dividido pelo número de pessoas para retornar o valor total da conta por pessoa e a porcentagem da gorjeta dividido pelo número de pessoas para retornar o valor da gorjeta por pessoa.
 
 Entretanto, um desafio interessante surge ao somar o valor da conta com a porcentagem da gorjeta, já que número da conta + número com porcentagem (como `200 + "10%"`) faz a concatenação. Para resolver esse problema, criei uma função que divide o número com a porcentagem desejada por 100 e multiplica pelo valor da conta, retornando assim o valor que deve ser somado com o número da conta.
 
