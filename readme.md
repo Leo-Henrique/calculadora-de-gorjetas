@@ -9,7 +9,7 @@ Este desafio pelo Frontend Mentor com ênfase em JavaScript consistia em desenvo
     * [O desafio](#-o-desafio)
     * [Captura de tela](#-captura-de-tela)
     * [Links](#-acesse-o-projeto)
-* [Desenvolvimento](#-desenvolvimento)
+* [Desenvolvimento](#%EF%B8%8F-desenvolvimento)
     * [Tecnologias utilizadas](#-tecnologias-utilizadas)
     * [Aprendizados](#-aprendizados)
         * [Lógica](#lógica)
