@@ -12,8 +12,8 @@ Este desafio pelo Frontend Mentor com ênfase em JavaScript consistia em desenvo
 * [Desenvolvimento](#-desenvolvimento)
     * [Tecnologias utilizadas](#-tecnologias-utilizadas)
     * [Aprendizados](#-aprendizados)
-        * [Cálculo](#cálculo)
         * [Lógica](#lógica)
+        * [Cálculo](#cálculo)
         * [Condições](#condições)
 
 ## 🔎 Visão geral
