@@ -4,17 +4,17 @@ Este desafio pelo Frontend Mentor com ênfase em JavaScript consistia em desenvo
 
 ## 📋 Índice
 
-- [Visão geral](#-visão-geral)
-    - [Status](#-status)
-    - [O desafio](#-o-desafio)
-    - [Captura de tela](#-captura-de-tela)
-    - [Links](#-acesse-o-projeto)
-- [Desenvolvimento](#-desenvolvimento)
-    - [Tecnologias utilizadas](#-tecnologias-utilizadas)
-    - [Aprendizados](#-aprendizados)
-            - [Cálculo](#cálculo)
-            - [Lógica](#lógica)
-            - [Condições](#condições)
+* [Visão geral](#-visão-geral)
+    * [Status](#-status)
+    * [O desafio](#-o-desafio)
+    * [Captura de tela](#-captura-de-tela)
+    * [Links](#-acesse-o-projeto)
+* [Desenvolvimento](#-desenvolvimento)
+    * [Tecnologias utilizadas](#-tecnologias-utilizadas)
+    * [Aprendizados](#-aprendizados)
+        * [Cálculo](#cálculo)
+        * [Lógica](#lógica)
+        * [Condições](#condições)
 
 ## 🔎 Visão geral
 
