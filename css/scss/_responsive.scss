@@ -1,0 +1,81 @@
+@media (max-width: 767.98px) {
+    body {
+        min-height: initial;
+        display: block;
+        padding: 0 6rem;
+    }
+    .calculator-logo {
+        margin: 5rem 0;
+    }
+    .calculator-container {
+        flex-direction: column;
+        border-radius: $borderRadius-container $borderRadius-container 0 0;
+    }
+    .calculator footer a {
+        margin-top: calc(5rem - 2rem);
+    }
+}
+
+@media (max-width: 575.98px) {
+    body {
+        padding: 0;
+    }
+    .calculator-logo {
+        margin: 4rem 0;
+    }
+    .calculator-container {
+        padding: 2rem;
+        gap: 2rem;
+    }
+    .calculator footer a {
+        padding: 1.2rem;
+        margin-top: calc(4rem - 1.2rem);
+        margin-bottom: 2.8rem;
+        font-size: 1.3rem;
+        line-height: 1.4;
+    }
+    .calculator-inputs {
+        padding: 1rem;
+
+        div + div {
+            margin-top: 2.5rem;
+        }
+        label {
+            font-size: 1.6rem;
+            line-height: 1.23;
+        }
+        input {
+            font-size: 2rem;
+        }
+        .checkboxes {
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        
+            button {
+                font-size: 2rem;
+            }
+            input {
+                text-align: center;
+            }
+        }
+    }
+    .calculator-result {
+        padding: 4rem 2rem 2rem;
+        gap: 4rem;
+
+        .info .texts {
+            max-width: 85px;
+            flex: 1 0 85px;
+        }
+        .info .texts p {
+            font-size: 1.6rem;
+            line-height: 1.23;
+            margin-bottom: 0.4rem;
+        }
+        .info .texts small {
+            font-size: 1.3rem;
+        }
+        .btn {
+            font-size: 2rem;
+        }
+    }
+}

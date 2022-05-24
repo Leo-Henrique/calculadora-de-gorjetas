@@ -1,0 +1,23 @@
+@mixin desktop-supported {
+    @media not all and (hover: none) {
+        @content;
+    }
+}
+
+@mixin btn {
+    padding: $padding-input + $border-input;
+    text-align: center;
+    font-size: $input;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-property: color, background-color, opacity;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+
+    @include desktop-supported {
+        &:hover {
+            color: $support-dark-5;
+            background-color: $support-light-3;
+        }
+    }
+}
