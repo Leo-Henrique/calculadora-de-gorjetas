@@ -35,18 +35,16 @@ function calculateTip(percentageValue) {
 
 function handleReset() {
     const condition = bill.value === "" && percentageInput.value === "" && people.value === "";
-
-    if (condition) {
-        reset.setAttribute("disabled", "");
-    } else {
-        reset.removeAttribute("disabled");
-    }
+    condition ? reset.setAttribute("disabled", "") : reset.removeAttribute("disabled");
 }
 
 const inputs = [bill, percentageInput, people];
 inputs.forEach(input => {
     input.addEventListener("input", (e) => {
         handleReset();
+
+        e.target.value =  !!e.target.value && Math.abs(e.target.value) >= 0 ? Math.abs(e.target.value) : null
+
 
         if (e.target !== percentageInput) {
             if (percentageInput.classList.contains("active")) {
