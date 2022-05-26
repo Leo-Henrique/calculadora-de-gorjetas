@@ -4,6 +4,7 @@ const bill = document.getElementById("bill");
 const percentageBtns = Array.from(document.querySelectorAll(".checkboxes button"));
 const percentageInput = document.getElementById("percentage");
 const people = document.getElementById("numberPeople");
+const errorElement = people.parentElement.previousElementSibling;
 const tipValue = document.getElementById("tipValue");
 const totalValue = document.getElementById("totalValue");
 const reset = document.getElementById("reset");
@@ -11,12 +12,8 @@ const reset = document.getElementById("reset");
 function calculateTip(percentageValue) {
     const billValue = +bill.value;
     const peopleValue = people.value;
-    const errorElement = people.parentElement.previousElementSibling;
 
-    if (peopleValue <= 0) {
-        errorElement.style.display = "block";
-        people.classList.add("error");
-    } else {
+    if (peopleValue != "" && peopleValue != 0) {
         function addPercentage(percentage, bill) {
             return (percentage / 100) * bill;
         }
@@ -33,8 +30,6 @@ function calculateTip(percentageValue) {
         }
         tipValue.innerText = formatNumber(tip);
         totalValue.innerText = formatNumber(total);
-        errorElement.style.display = "none";
-        people.classList.remove("error");
     }
 }
 
@@ -69,6 +64,16 @@ inputs.forEach(input => {
             percentageInput.classList.add("active");
             calculateTip(percentageInput.value);
         }
+
+        if (e.target === people) {
+            if (people.value == "" || people.value == 0) {
+                errorElement.style.display = "block";
+                people.classList.add("error");
+            } else {
+                errorElement.style.display = "none";
+                people.classList.remove("error");
+            }
+        }
     });
 });
 
@@ -87,8 +92,6 @@ reset.addEventListener("click", () => {
     inputs.forEach(input => {
         input.value = "";
         if (input === people && input.classList.contains("error")) {
-            const errorElement = people.parentElement.previousElementSibling;
-
             errorElement.style.display = "none";
             people.classList.remove("error");
         };
