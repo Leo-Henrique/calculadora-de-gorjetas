@@ -2,12 +2,13 @@
 
 Este desafio pelo Frontend Mentor com ênfase em JavaScript consistia em desenvolver uma calculadora de gorjetas. Considerado nível júnior pela plataforma, é um ótimo desafio para se familiarizar com os fundamentos de JavaScript e melhorar o uso da lógica de programação.
 
+![Captura de tela do projeto](https://user-images.githubusercontent.com/72027449/170118302-e57610ac-e739-4376-b3e5-df825305e4d9.png)
+
 ## 📋 Índice
 
 * [Visão geral](#-visão-geral)
     * [Status](#-status)
     * [O desafio](#-o-desafio)
-    * [Captura de tela](#-captura-de-tela)
     * [Links](#-acesse-o-projeto)
 * [Desenvolvimento](#%EF%B8%8F-desenvolvimento)
     * [Tecnologias utilizadas](#-tecnologias-utilizadas)
@@ -30,10 +31,6 @@ Para a resolução deste desafio, os usuários devem ser capazes de:
 * Visualizar os estados – pairar, clicar ou selecionar – nos elementos interativos para uma usabilidade adequada
 * Calcular a gorjeta e o custo total da conta por pessoa
 
-### 📷 Captura de tela
-
-![Captura de tela do projeto](https://user-images.githubusercontent.com/72027449/170118302-e57610ac-e739-4376-b3e5-df825305e4d9.png)
-
 ### 🔗 Acesse o projeto
 
 * [Link do projeto](https://leo-henrique.github.io/calculadora-de-gorjetas/)
@@ -51,7 +48,7 @@ Para a resolução deste desafio, os usuários devem ser capazes de:
 
 #### Lógica
 
-Apesar de possuir funcionalidades simples, este é um projeto com detalhes importantes a ser considerados na hora de escrever JavaScript, que me ajudou a trabalhar minha lógica de programação. 
+Apesar de possuir funcionalidades simples, este é um projeto com detalhes importantes a ser considerados na hora de escrever JavaScript, que ajudou a trabalhar minha lógica de programação. 
 
 Comecei listando as funcionalidades do projeto por ondem de prioridade e iniciei escrevendo a função principal do projeto, que seria o cálculo que retorna o valor da gorjeta e o custo total da conta por pessoa.
 

@@ -45,7 +45,6 @@ inputs.forEach(input => {
 
         e.target.value =  !!e.target.value && Math.abs(e.target.value) >= 0 ? Math.abs(e.target.value) : null
 
-
         if (e.target !== percentageInput) {
             if (percentageInput.classList.contains("active")) {
                 calculateTip(percentageInput.value);
