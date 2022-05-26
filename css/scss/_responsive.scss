@@ -11,8 +11,16 @@
         flex-direction: column;
         border-radius: $borderRadius-container $borderRadius-container 0 0;
     }
-    .calculator footer a {
-        margin-top: calc(5rem - 2rem);
+    .calculator footer {
+        margin-top: calc(5rem - 0.8rem);
+        margin-bottom: calc(4rem - 0.8rem);
+
+        p {
+            display: block;
+        }
+        a {
+            padding: 0.8rem 0;
+        }
     }
 }
 
@@ -27,12 +35,13 @@
         padding: 2rem;
         gap: 2rem;
     }
-    .calculator footer a {
-        padding: 1.2rem;
-        margin-top: calc(4rem - 1.2rem);
-        margin-bottom: 2.8rem;
+    .calculator footer {
         font-size: 1.3rem;
         line-height: 1.4;
+        margin: calc(4rem - 0.6rem) 0;
+        a {
+            padding: 0.6rem 0;
+        }
     }
     .calculator-inputs {
         padding: 1rem;

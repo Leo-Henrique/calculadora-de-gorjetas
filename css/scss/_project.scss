@@ -29,13 +29,16 @@ body {
     }
     footer {
         text-align: center;
+        @include font-size($small);
+        margin-top: calc(7rem - 2rem);
+        margin-bottom: 2rem;
 
+        p {
+            display: inline-block;
+        }
         a {
             display: inline-block;
-            padding: 2rem;
-            margin-top: calc(7rem - 2rem);
-            margin-bottom: 2rem;
-            @include font-size($small);
+            padding: 2rem 0;
             color: $support-dark-5;
             transition: color 200ms ease-in-out;
     
